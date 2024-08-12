@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(94, 224, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.fondo {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgray ;
+    padding: 10px;
+}
+
+.contacto h3 {
+    font-size: 26px;
+    color: gray;
+    margin-right: 15px;
+}
+
+.contacto img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    color: lightgray;
+}
